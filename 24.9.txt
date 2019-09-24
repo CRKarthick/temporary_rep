@@ -1,0 +1,84 @@
+https://demos.creative-tim.com/argon-dashboard/docs/components/alerts.html
+https://stackoverflow.com/questions/21572584/javascript-notifications-onclick-event
+https://www.w3schools.com/tags/ev_onclick.asp
+https://www.w3schools.com/howto/howto_js_alert.asp
+https://stackoverflow.com/questions/42392743/creating-different-coloured-alert-messages-with-javascript/42393381
+https://www.guru99.com/jira-tutorial-a-complete-guide-for-beginners.html#1
+https://www.atlassian.com/try/cloud/signup?bundle=jira-software
+
+
+
+
+----jira.html
+
+<html>
+<head>
+</head>
+<style>
+form {
+border : 2px solid #000; 
+padding : 5px;
+}
+form div label {
+float: left;
+width: 40%;
+font: bold 0.9em Arial, Helvetica, sans-serif;
+}
+</style>
+<body>
+<div class="container">
+<div class="row">
+<div class="page-header">
+<h2 ALIGN="left">Create template</h2>
+</div>
+
+<form action="jira.html" method ="POST">
+<div class="form-group">
+<label for="text1" class="col-sm-2 control-label">Template name</label>
+<div class="col-sm-6">
+<input type="text" name="text1" class="form-control" id="developer" placeholder="New developer" required="required">
+</div>
+</div>
+<br>
+
+<form class="form-horizontal" action="jira.html" method ="POST">
+<div class="form-group">
+<label for="text2" class="col-sm-2 control-label">Description</label>
+<div class="col-sm-6">
+<input type="text" name="text2" class="form-control" id="desc">
+</div>
+</div>
+<br>
+
+<form class="form-horizontal" action="jira.html" method ="POST">
+<div class="form-group">
+<label for="text2" class="radio">Public</label>
+<div class="col-sm-6">
+<input type="radio" name="answer" class="form-control">
+</div>
+</div>
+<br>
+
+<form class="form-horizontal" action="jira.html" method ="get">
+<div class="form-group">
+
+<select name="scope">
+<datalist id="scope">
+    <option value="new-user">New-user</option>
+    <option value="jira-user">Jira-user</option>
+    <option value="jira-work">Jira-work</option>
+    <option value="jira-project">Jira-project</option>
+    <option value="jira-configuration">Jira-config</option>
+  </datalist>
+  </select>
+  <label for="text3" class="col-sm-2 control-label">Scope</label>
+<div class="col-sm-6">
+</div>
+</div>
+<br>
+
+
+
+
+</body>
+
